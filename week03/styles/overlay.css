@@ -45,7 +45,7 @@ h2 {
 }
 
 footer {
-    position: relative;
+    position: fixed;
     bottom: 0;
     margin: 1rem;
     border-top: 1px solid #000;
