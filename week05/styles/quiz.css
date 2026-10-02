@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 500px;
+    background-color: floralwhite;
+    color: black;
+}
+
+form {
+    background-color: slategrey;
+    color: black;
+}
+
+input,
+textarea,
+select,
+button {
+    padding: 0.75rem;
+    width: 350px;
+}
+
+code {
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    display: block;
+    border-radius: 0.5rem;
+    border: 1px solid rgd(0 0 0 / 10%);
+    margin: 0 auto;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgd(0 0 0 / 10%);
+    padding: 1rem;
+}
+
+.quiz-item {
+    border: none;
+}
