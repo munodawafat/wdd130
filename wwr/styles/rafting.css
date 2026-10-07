@@ -89,6 +89,10 @@ header nav a :focus-visible {
     border-radius: 8px;
 }
 
+.history article {
+    text-align: end;
+}
+
 main,
 footer {
     width: 840px;
@@ -98,7 +102,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 nav,
@@ -112,6 +116,7 @@ article {
 .adventures {
     padding: 3rem 2rem;
     background: #eaf4f1;
+    color: var(--accent2-color);
 }
 
 .adventures h2 {
@@ -155,6 +160,7 @@ article {
 
 .hero {
     position: relative;
+    text-align: start;
 }
 
 .hero img {
@@ -206,4 +212,13 @@ footer nav.socialmedia img {
     width: 38px;
     height: 38px;
     object-fit: contain;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    display: block;
+    border-radius: 0.5rem;
+    border: 1px solid rgd(0 0 0 / 10%);
+    margin: 0 auto;
 }
